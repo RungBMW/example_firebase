@@ -1,3 +1,4 @@
+import 'package:example_firebase/display%20on%20app/display.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.black,
       ),
-      home: HomePage(),
+      home: Display(),
     );
   }
 }
